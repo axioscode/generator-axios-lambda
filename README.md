@@ -59,6 +59,25 @@ To generate multiple Lambda functions within a project, just re-use the generato
 yo axios-lambda:python [function-name]
 ```
 
+### axios-lambda:go
+
+`yo axios-lambda:go function_name`
+
+Generate an AWS Lambda project with a Go function, named `function_name`
+
+```bash
+mkdir [project-name] && cd $_
+yo axios-lambda:go [function-name]
+```
+
+#### Multiple functions
+
+To generate multiple Lambda functions within a project, just re-use the generator
+
+```bash
+yo axios-lambda:go [function-name]
+```
+
 ## Developing
 
 ### Utils
